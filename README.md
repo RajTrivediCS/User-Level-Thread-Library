@@ -1,12 +1,11 @@
 # User-Level Thread Library
-    - This project involved designing and implementing a user-level thread library which supports thread creation, thread scheduling via context-switching, thread             synchronization using Semaphores, and Inter-Thread Communication(ITC) mechanism using Message Passing and Mailbox functionality
+    - This project involved designing and implementing a user-level thread library which supports thread creation, thread scheduling via context-switching, thread      synchronization using Semaphores, and Inter-Thread Communication(ITC) mechanism using Message Passing and Mailbox functionality
 
     - This project utilizes high level C language to achieve all of the given functionality
 
 # Compilation and Running Instructions
     - Because this is a thread library, this DOES NOT need to be compiled or run
-    - However, you can download this thread library on your local machine, include "ud_thread.h" header file on the top of your application, and basically then use the
-      APIs for my thread library
+    - However, you can download this thread library on your local machine, include "ud_thread.h" header file on the top of your application, and basically then use the APIs for my thread library
 
 # APIs in my thread library
     - The APIs that you can use in your application for my thread library are given as follows:
