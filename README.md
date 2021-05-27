@@ -1,6 +1,5 @@
 # User-Level Thread Library
-    - This project involved designing and implementing a user-level thread library which supports thread creation, thread scheduling via context-switching, thread      synchronization using Semaphores, and Inter-Thread Communication(ITC) mechanism using Message Passing and Mailbox functionality
-
+    - This project involved designing and implementing a user-level thread library which supports thread creation, thread scheduling via context-switching, thread synchronization using Semaphores, and Inter-Thread Communication(ITC) mechanism using Message Passing and Mailbox functionality
     - This project utilizes high level C language to achieve all of the given functionality
 
 # Compilation and Running Instructions
