@@ -21,8 +21,8 @@
          10. int mbox_create(mbox **mb); // Creates a mailbox pointed to by "mb"
          11. void mbox_destroy(mbox **mb); // Destroys any state related to the mailbox pointed to by "mb"
          12. void mbox_deposit(mbox *mb, char *msg, int len); // Deposits message "msg" of length "len" into the mailbox pointed to by "mb"
-         13. void mbox_withdraw(mbox *mb, char *msg, int *len); // Withdraws the first message from the mailbox pointed to by "mb" into "msg" and set the message's                                                                          length in "len" accordingly.
-         14. void send(int tid, char *msg, int len); // Sends a message to the thread whose tid is "tid". "msg" is the pointer to the start of the message, and "len"                                                             specifies the length of the message in bytes. 
-         15. void receive(int *tid, char *msg, int *len); // If "tid" is 0, then receiver thread receives a message from ANY thread. Otherwise,receiver thread receives a                                                              message from another thread whose "tid" is given in the parameter 
+         13. void mbox_withdraw(mbox *mb, char *msg, int *len); // Withdraws the first message from the mailbox pointed to by "mb" into "msg" and set the message's length in "len" accordingly.
+         14. void send(int tid, char *msg, int len); // Sends a message to the thread whose tid is "tid". "msg" is the pointer to the start of the message, and "len" specifies the length of the message in bytes. 
+         15. void receive(int *tid, char *msg, int *len); // If "tid" is 0, then receiver thread receives a message from ANY thread. Otherwise,receiver thread receives message from another thread whose "tid" is given in the parameter 
          16. void block_send(int tid, char *msg, int length); // Sender thread sends a message and waits for reception
          17. void block_receive(int *tid, char *msg, int *length); // Receiver thread waits for and recieves a message from sender thread whose tid is "tid"
